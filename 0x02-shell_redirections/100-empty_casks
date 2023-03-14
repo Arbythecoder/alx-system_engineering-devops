@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -empty
+find . -type f -empty -printf '%f\n' , -type d -empty -printf '%f\n' -quit
+
