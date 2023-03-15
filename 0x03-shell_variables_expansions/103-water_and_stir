@@ -1,0 +1,2 @@
+#!/bin/bash
+$echo $WATER | tr $water '0-9' | bc +echo $STIR | tr $stir '0-9' | bc
